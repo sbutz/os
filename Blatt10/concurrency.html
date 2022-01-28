@@ -1,0 +1,149 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Concurrency: models and programs</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF"
+vlink="#800080">
+
+<p align="right"><a href="concurrency.html"><img src="p2hup.gif"
+border="0" width="35" height="35"></a><a
+href="CruiseControl.html"><img src="p2hnext.gif" border="0"
+width="35" height="35"></a></p>
+
+<h1><font size="7" face="Arial, Helvetica, sans-serif">Concurrency: </font></h1>
+
+<h1><font size="6" face="Arial, Helvetica, sans-serif">State Models and Java Programs</font></h1>
+<p><font size="6" face="Arial, Helvetica, sans-serif">second edition</font></p>
+<p>Updated by Daniel Sykes, 2013</p>
+
+<hr>
+
+<h2><font face="Arial, Helvetica, sans-serif">Example programs:</font></h2>
+<blockquote> 
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 1 - Introduction</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="CruiseControl.html">Cruise Control</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 2 - Processes &amp; Threads</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="CountDown.html">CountDown Timer</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 3 - Concurrent Execution</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="ThreadDemo.html">Thread Demonstration</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 4 - Shared Objects &amp; 
+    Interference</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="Garden.html">Ornamental garden</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 5 - Monitors &amp; Condition 
+    Synchronization</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="CarPark.html">CarPark</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="SemaDemo.html">Semaphore Demonstration</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="BoundedBuffer.html">Bounded Buffer</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="NestedMonitor.html">Nested Monitor example</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="FixedNestedMonitor.html">Fixed Nested Monitor example</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 6 - Deadlock</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="Diners.html">Dining Philosophers</a> </font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="FixedDiners.html">Fixed Dining Philosophers</a> </font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 7 - Safety &amp; Liveness</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="SingleLaneBridge.html">Single Lane Bridge</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="ReadersWriters.html">Readers and Writers</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="ReadWritePriority.html">Readers and Writers: Writers priority</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="ReadWriteFair.html">Readers and Writers: Fair</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 8 - Model-Based Design</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="FixedCruiseControl.html">Cruise Control - correct version</a></font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 9 - Dynamic Systems</font></h3>
+</blockquote>
+<blockquote> 
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="GolfClub.html">Golf Club</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="GolfClubFifo.html">Golf Club: Fair Allocator</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="GolfClubBounded.html">Golf Club: Bounded Overtaking Allocator</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="JoinDemo.html">Master/ Slave using join()</a></font></p>
+  </blockquote>
+</blockquote>
+<blockquote> 
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 10 - Message Passing</font></h3>
+</blockquote>
+<blockquote> 
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="SynchMsgDemo.html">Synchronous Message Passing</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="SelectMsgDemo.html">Selective Receive Message Demo</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="AsynchMsgDemo.html">Asynchronous Message Passing</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"> 
+      <a
+        href="EntryDemo.html">Rendezvous Message Passing Demo</a></font></p>
+  </blockquote>
+</blockquote>
+<blockquote> 
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 11 - Concurrent Architecture</font></h3>
+</blockquote>
+<blockquote> 
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="Primes.html">Primes Sieve</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="SupervisorWorker.html">Supervisor Worker</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="AnnouncerListener.html">Announcer-Listener</a> </font></p>
+  </blockquote>
+  <h3><font face="Arial, Helvetica, sans-serif">Chapter 12 - Timed Systems</font></h3>
+  <blockquote> 
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="ParcelSorter.html">Parcel Sorter</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><img src="Image60.gif" width="12" height="12"><a
+        href="SpaceInvaders.html">Space Invaders</a></font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><em>Applets require Java&#8482; 
+      2 Platform Standard Edition (version 1.5.0 or later)</em></font></p>
+        </blockquote>
+</blockquote>
+</body>
+</html>

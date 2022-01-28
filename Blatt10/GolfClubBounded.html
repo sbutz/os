@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>GolfClub</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="GolfClubFifo.html"><img
+src="p2hprev.gif" border="0" width="35" height="35"></a><a
+href="concurrency.html"><img src="p2hup.gif" border="0"
+width="35" height="35"></a><a href="JoinDemo.html"><img
+src="p2hnext.gif" border="0" width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Bounded Overtaking 
+  Allocation Strategy</font></h1>
+<h3><font size="3" face="Arial, Helvetica, sans-serif">The groundsman now starts 
+  to get complaints from the better (and more aggressive) players. They are being 
+  kept waiting because some novice, who requires a large number of golfballs, 
+  is ahead of him in the queue. What is needed is some compromise between giving 
+  priority to expert players (requiring fewer golfballs) while preventing novices 
+  from waiting forever. One day, when being hit over the head by the golf club 
+  of an irate expert, the solution came to him. The policy he adopts is bounded 
+  overtaking. A player can be overtaken by not more than k players. In the example 
+  below, k = 3. </font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/golf/GolfClub.class"
+        align="baseline" width="700" height="270">
+            <param
+        name="allocatorClass" value="BoundedOvertakingAllocator">
+            <h2>Unable to load applet</h2>
+            <p>&nbsp;</p>
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/golf/Allocator.java">Allocator.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a
+href="concurrency/golf/BoundedOvertakingAllocator.java">BoundedOvertakingAllocator.java</a></font></p>
+</body>
+</html>

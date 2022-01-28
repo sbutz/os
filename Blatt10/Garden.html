@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Ornamental Garden</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="ThreadDemo.html"><img src="p2hprev.gif"
+border="0" width="35" height="35"></a><a href="concurrency.html"><img
+src="p2hup.gif" border="0" width="35" height="35"></a><a
+href="CarPark.html"><img src="p2hnext.gif" border="0" width="35"
+height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Ornamental Garden 
+  Problem</font></h1>
+<h3 align="left"><font size="3" face="Arial, Helvetica, sans-serif">A large ornamental 
+  garden is open to members of the public who can enter through either one of 
+  two turnstiles to the East and to the West of the garden. The management want 
+  to determine how many people are in the garden at any one time. They design 
+  a computer system to do this. In the program produced, each turnstile is represented 
+  by a thread and updates a shared Counter object. </font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/garden/Garden.class"
+        align="baseline" width="400" height="150">
+            <h2>Unable to load applet</h2>
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/garden/Garden.java">Garden.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/display/NumberCanvas.java">NumberCanvas.java</a> 
+  </font></p>
+<h3 align="left"><font face="Arial, Helvetica, sans-serif">T<font size="3">his 
+  version does not work correctly as can be observed, increments to the Counter 
+  are lost so that the total number of people in the garden is not the sum of 
+  the people who entered through the turnstiles. Click on the checkbox to rerun 
+  using a counter with mutually exclusive access. </font></font></h3>
+</body>
+</html>

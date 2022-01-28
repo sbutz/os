@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title> Select Message Passing Demo</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="SynchMsgDemo.html"><img
+src="p2hprev.gif" border="0" width="35" height="35"></a><a
+href="concurrency.html"><img src="p2hup.gif" border="0"
+width="35" height="35"></a><a href="AsynchMsgDemo.html"><img
+src="p2hnext.gif" border="0" width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Selective Receive 
+  Message Passing Example</font></h1>
+<h3><font size="3" face="Arial, Helvetica, sans-serif">This applet demonstrates 
+  the use of selective receive. It is a re-implementation of the Carpark example 
+  using message passing. The arrivals and departures threads communicate with 
+  the thread controlling the carpark using message passing. The carpark thread 
+  rotates once for each message it receives, whether from the departures thread 
+  or the arrivals thread. The effect of the select can clearly be seen by running 
+  the departures and arrivals threads first and then running the carpark controller 
+  thread. </font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet
+        code="concurrency/message/SelectMsgDemo.class"
+        align="baseline" width="550" height="300">
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/message/Channel.java">Channel.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/message/Select.java">Select.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/message/Selectable.java">Selectable.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a
+href="concurrency/message/SelectMsgDemo.java">SelectMsgDemo.java </a></font></p>
+</body>
+</html>

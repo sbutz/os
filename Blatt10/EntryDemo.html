@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title> Rendezvous Message Passing Demo</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="AsynchMsgDemo.html"><img
+src="p2hprev.gif" border="0" width="35" height="35"></a><a
+href="concurrency.html"><img src="p2hup.gif" border="0"
+width="35" height="35"></a><a href="Primes.html"><img
+src="p2hnext.gif" border="0" width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Rendezvous</font></h1>
+<h3><font size="3" face="Arial, Helvetica, sans-serif">The applet demonstrates 
+  Client Server interaction via a rendezvous message passing protocol. Each client 
+  calls on the server to perform a service. Requests are queued to an <em>entry</em>. 
+  The Server accepts requests from the entry, services them and replies. When 
+  the server is servicing a client's request, its rotating segment colour is the 
+  same as that of the client. Run the clients first so that when the server starts, 
+  there are two outstanding service requests.</font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/message/EntryDemo.class"
+        align="baseline" width="570" height="330">
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/message/Entry.java">Entry.java 
+  </a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/message/EntryDemo.java">EntryDemo.java</a></font></p>
+</body>
+</html>

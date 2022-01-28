@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title> Join() Demonstration</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="GolfClubBounded.html"><img
+src="p2hprev.gif" border="0" width="35" height="35"></a><a
+href="concurrency.html"><img src="p2hup.gif" border="0"
+width="35" height="35"></a><a href="SynchMsgDemo.html"><img
+src="p2hnext.gif" border="0" width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Join() Demonstration</font></h1>
+<h3><font size="3" face="Arial, Helvetica, sans-serif">Demonstrates the effect 
+  of the Java join() primitive. The Master thread rotates until its segment changes 
+  colour and then creates and starts the Slave thread. The Master continues rotating 
+  until the segment changes colour again at which point it joins the Slave thread. 
+  When started, the Slave rotates until it terminates. The amount of rotation 
+  by the Slave is returned as a result to the Master and displayed. The slave 
+  rotation and the time between the master starting and joining the slave can 
+  be controlled by the slider controls. To see the Master blocked waiting for 
+  the Slave to terminate, move both sliders to the left.</font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/JoinDemo.class"
+        align="baseline" width="500" height="200">
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/JoinDemo.java">JoinDemo.java</a></font></p>
+</body>
+</html>

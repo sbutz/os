@@ -1,0 +1,1470 @@
+<?xml version='1.0'?>
+<kawaproject>
+<versioninfo>
+<documentversion>
+<major>"0"</major>
+<minor>"1"</minor>
+</documentversion>
+<productversion>
+<value>"121"</value>
+</productversion>
+</versioninfo>
+<path>"D:\Jeffdoc\java\applets\"</path>
+<classpaths>
+<classpath enabled="1">
+<value>"D:\java2\Ltsa\bin\"</value>
+</classpath>
+<classpath enabled="1">
+<value>"d:\java2\SceneBeans\bin\"</value>
+</classpath>
+</classpaths>
+<profile>
+<name>"Profile 1"</name>
+</profile>
+<runfile>
+<relativepath>"concurrency\viewer\Viewer.java"</relativepath>
+</runfile>
+<items>
+<folder>
+<name>"applets"</name>
+<relativepath>"..\applets\applets.kpx"</relativepath>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+<virtualfolder>
+<name>"announce"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\announce\BoxCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12310940" y="12310944" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\announce\BoxMover.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="102456764" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"6"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\announce\EventDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"bridge"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\BlueCar.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="10" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\Bridge.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\BridgeCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1768845170" y="543450490" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1931485216"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\FairBridge.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\RedCar.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\SafeBridge.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12261724" y="12261700" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\bridge\SingleLaneBridge.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"buffer"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\BoundedBuffer.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="9370208" y="5484680" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\Buffer.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\BufferCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12261296" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\BufferImpl.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\Consumer.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\FixedNestedMonitor.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12266204" y="2495" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\NestedMonitor.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"904"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\buffer\Producer.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"carpark"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\carpark\CarPark.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"connector"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\connector\Pipe.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="10" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\connector\PipeImplBuf.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="102453164" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\connector\PipeImplUnBuf.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598668324"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\connector\TupleSpace.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"197"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\connector\TupleSpaceImpl.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="12289648" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\CountDown.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="8084568" y="8084408" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"8084888"</userinteger>
+</scmstatus>
+</file>
+<virtualfolder>
+<name>"cruise"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\CarSimulator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\CarSpeed.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\Controller.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12298832" y="12288284" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"12288296"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\CruiseControl.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"76"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\CruiseDisplay.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="9350080" y="9263348" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"9263312"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\cruise\SpeedControl.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"diners"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\diners\Diners.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\diners\FixedPhilosopher.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="175" y="2442" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"8"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\diners\Fork.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"67"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\diners\PhilCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\diners\Philosopher.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="4947268" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"display"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\display\NumberCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\display\SlotCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\display\StringCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\display\ThreadPanel.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"garden"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\garden\Garden.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"golf"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\Allocator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="4947268" y="102459904" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\BoundedOvertakingAllocator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\DisplayAllocator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"16"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\FairAllocator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\GolfClub.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12271424" y="12274416" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"12269168"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\Player.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="102456524" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\PlayerArrival.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\golf\SimpleAllocator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"31"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"invaders"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\invaders\SpaceInvaders.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\JoinDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<virtualfolder>
+<name>"message"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\AsynchMsgDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\Channel.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\Entry.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\EntryDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1768710773" y="1870012515" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"218762621"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\Port.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\Select.java"</relativepath>
+<editor open="0">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="8047288" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"14"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\Selectable.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\SelectMsgDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\message\SynchMsgDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"parcel"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\parcel\Parcel.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\parcel\ParcelCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598668324"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\parcel\ParcelRouter.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="4947268" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"primes"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\primes\Filter.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\primes\Generator.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598668324"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\primes\Primes.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="9264612" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"76"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\primes\PrimesCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598668324" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"10"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"readwrite"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\DisplayReadWrite.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\ReadersWriters.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="12269824" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"12269812"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\ReadWrite.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1598888736" y="1598888736" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\ReadWriteFair.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12274080" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\ReadWritePriority.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1953068142" y="1635003513" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1802661702"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\readwrite\ReadWriteSafe.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="12277212" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"semaphore"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\semaphore\DisplaySemaphore.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\semaphore\SemaDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="12306864" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\semaphore\Semaphore.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="9362228" y="5469792" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598888736"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"sprite"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\sprite\Sprite.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\sprite\SpriteCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"supwork"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\Function.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="12298720" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"12298708"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\Supervisor.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="9312004" y="12256272" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"12256080"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\SupervisorCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"270"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\SupervisorWorker.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="10" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\Worker.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\supwork\WorkerCanvas.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1635086707" y="1348756850" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1634493194"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\ThreadDemo.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<virtualfolder>
+<name>"time"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\time\ImmutableList.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="1" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"883"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\time\Timed.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1598668324" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\time\TimedCountDown.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598668324"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\time\TimeManager.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="12265116" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\time\TimeStop.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="0" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"1598668324"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+<virtualfolder>
+<name>"viewer"</name>
+<file>
+<dirty>"0"</dirty>
+<relativepath>"concurrency\viewer\Viewer.java"</relativepath>
+<editor open="1">
+<selection start="0" end="0">
+</selection>
+<window x="0" y="1" width="0" height="0">
+</window>
+</editor>
+<scmstatus id="0">
+<userstring>""</userstring>
+<userinteger>"0"</userinteger>
+</scmstatus>
+</file>
+</virtualfolder>
+</folder>
+</items>
+<compileroptions debug="0" nowarning="0" optimize="0" verbose="0" deprecated="0" usefilelist="0">
+<outputdirvalues checked="0">
+</outputdirvalues>
+<customoptions checked="1">
+<customoption selected="1">
+<value>"-deprecation -Xlint:-serial -Xlint:unchecked"</value>
+</customoption>
+</customoptions>
+</compileroptions>
+<interpreteroptions debug="0" nogc="0" verbosegc="0" verbose="0" checksrc="0" verifieroff="0" verifieron="0" verifierremote="0" classic="0">
+<commandlineargs checked="0">
+</commandlineargs>
+<runclassnames checked="0">
+<runclassname selected="0">
+<value>""</value>
+</runclassname>
+</runclassnames>
+<executedirs checked="0">
+<executedir selected="0">
+<value>""</value>
+</executedir>
+</executedirs>
+<customoptions checked="0">
+<customoption selected="0">
+<value>""</value>
+</customoption>
+</customoptions>
+<maxmemory checked="0">
+<value>""</value>
+</maxmemory>
+<startmemory checked="0">
+<value>""</value>
+</startmemory>
+<javacodestack checked="0">
+<value>""</value>
+</javacodestack>
+<ccodestack checked="0">
+<value>""</value>
+</ccodestack>
+<propertyvalues checked="0">
+<propertyvalue selected="0">
+<value>""</value>
+</propertyvalue>
+</propertyvalues>
+<debugger>
+<remote checked="0">
+<host checked="0">
+<value>""</value>
+</host>
+<password checked="0">
+<value>""</value>
+</password>
+<port checked="0">
+<value>""</value>
+</port>
+<connector checked="0">
+<value>""</value>
+</connector>
+</remote>
+</debugger>
+</interpreteroptions>
+<javadocoptions version="0" type="1" author="0" noindex="0" notree="0" nodeprecated="0">
+<outputdirvalues checked="0">
+</outputdirvalues>
+<customoptions checked="0">
+<customoption selected="0">
+<value>""</value>
+</customoption>
+</customoptions>
+</javadocoptions>
+<rmioptions useprojectclasspath="0" debugtables="0" depend="0" debug="0" optimize="0" nowarn="0" verbose="0" nowrite="0" keepgenerated="0" show="0">
+<outputdirs checked="0">
+<outputdir selected="0">
+<value>""</value>
+</outputdir>
+</outputdirs>
+<stubdirs checked="0">
+<stubdir selected="0">
+<value>""</value>
+</stubdir>
+</stubdirs>
+<skeldirs checked="0">
+<skeldir selected="0">
+<value>""</value>
+</skeldir>
+</skeldirs>
+<customoptions checked="0">
+<customoption selected="0">
+<value>""</value>
+</customoption>
+</customoptions>
+<files>
+</files>
+</rmioptions>
+<kawajar>
+<value>""</value>
+</kawajar>
+<breakpoints>
+</breakpoints>
+</kawaproject>

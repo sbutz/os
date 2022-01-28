@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Semaphore</title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="CarPark.html"><img src="p2hprev.gif"
+border="0" width="35" height="35"></a><a href="concurrency.html"><img
+src="p2hup.gif" border="0" width="35" height="35"></a><a
+href="BoundedBuffer.html"><img src="p2hnext.gif" border="0"
+width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Mutual Exclusion 
+  Demonstration using Semaphores</font></h1>
+<h3 align="left"><font face="Arial, Helvetica, sans-serif">The program uses a 
+  semaphore to ensure that it is not possible for threads to enter their critical 
+  sections at the same time. The critical section is represented by a light blue 
+  (cyan) colour. To execute in this region, a thread must have acquired mutual 
+  exclusion by executing a down() operation on the semaphore Mutex. The length 
+  of time each thread spends in its critical section may be adjusted using the 
+  slider control. Further to the right increases this time. The adjustment takes 
+  effect at the beginning of each revolution. </font></h3>
+<div align="center"> 
+  <center>
+    <table border="3">
+      <tr> 
+        <td> <font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/semaphore/SemaDemo.class"
+        align="baseline" width="570" height="290">
+            <h2>Unable to load applet</h2>
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/semaphore/Semaphore.java">Semaphore.java</a> 
+  </font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a
+href="concurrency/semaphore/DisplaySemaphore.java">DisplaySemaphore.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/semaphore/SemaDemo.java">SemaDemo.java</a></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/display/ThreadPanel.java">ThreadPanel.java</a> 
+  </font></p>
+</body>
+</html>

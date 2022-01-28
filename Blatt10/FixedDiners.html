@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title> Fixed Dining Philosophers </title>
+</head>
+
+<body background="Image16.jpg" text="#000000" link="#0000FF">
+<p align="right"><font face="Arial, Helvetica, sans-serif"><a href="Diners.html"><img src="p2hprev.gif"
+border="0" width="35" height="35"></a><a href="concurrency.html"><img
+src="p2hup.gif" border="0" width="35" height="35"></a><a
+href="SingleLaneBridge.html"><img src="p2hnext.gif" border="0"
+width="35" height="35"></a></font></p>
+<h1 align="center"><font face="Arial, Helvetica, sans-serif">Dining Philosophers 
+  - Deadlock free</font></h1>
+<h3><font size="3" face="Arial, Helvetica, sans-serif">The version avoids the 
+  possibility of deadlock by making even numbered philosophers pick up the chopsticks 
+  in a different order from the rest. That is, left first rather than right first. 
+  </font></h3>
+<div align="center">
+  <center>
+    <table border="3">
+      <tr> 
+        <td><font face="Arial, Helvetica, sans-serif">
+          <applet code="concurrency/diners/Diners.class"
+        align="baseline" width="300" height="320">
+            <param
+        name="Version" value="FIXED">
+          </applet>
+          </font></td>
+      </tr>
+    </table>
+  </center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/diners/FixedPhilosopher.java">FixedPhilosopher.java</a> 
+  </font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><a href="concurrency/diners/Fork.java">Fork.java</a> 
+  </font></p>
+</body>
+</html>
